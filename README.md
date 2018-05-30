@@ -56,6 +56,7 @@ CGAffineTransform transform = CGAffineTransformMakeTranslation(50, 50);
 imageView.transform = CGAffineTransformTranslate(transform, 50, 50);
 ``` 
 * CGAffineTransformScale
+
 CGAffineTransformScale 实现以一个已经存在的形变为基准,在x轴方向上缩放x倍,在y轴方向上缩放y倍
 
 ```objc
@@ -64,6 +65,7 @@ imageView.transform = CGAffineTransformScale(transform, 2, 1);
 ``` 
 
 * CGAffineTransformRotate
+
 CGAffineTransformRotate 实现以一个已经存在的形变为基准,将坐标系统逆时针旋转angle弧度(弧度=π/180×角度,M_PI弧度代表180角度)
 
 ```objc
@@ -72,6 +74,7 @@ imageView.transform = CGAffineTransformRotate(transform, M_PI*0.25);
 ```
 
 * CGAffineTransformIdentity
+
 transform属性默认值为CGAffineTransformIdentity,可以在形变之后设置该值以还原到最初状态
 
 ```objc
