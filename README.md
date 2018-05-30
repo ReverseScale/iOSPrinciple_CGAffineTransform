@@ -20,6 +20,8 @@ typedef struct CGAffineTransform CGAffineTransform;
 
 ![](http://og1yl0w9z.bkt.clouddn.com/18-5-30/91472478.jpg)
 
+---
+
 ### 方法介绍
 * CGAffineTransformMakeTranslation
 
@@ -75,6 +77,8 @@ transform属性默认值为CGAffineTransformIdentity,可以在形变之后设置
 ```objc
 imageView.transform = CGAffineTransformIdentity;
 ```
+
+---
 
 ### CGAffineTransform原理
 
@@ -137,6 +141,5 @@ self.demoImageView.transform = CGAffineTransformMake(cos(M_PI * 0.5), sin(M_PI *
 self.demoImageView.transform = CGAffineTransformIdentity;
 self.demoImageView.transform = CGAffineTransformMake(1, 0, 0, 1, 0, 0);
 ```
-
 
 > 以上文章整理自：https://www.jianshu.com/p/ca7f9bc62429
